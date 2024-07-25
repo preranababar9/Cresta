@@ -12,10 +12,10 @@ const Header = () => {
       </div>
 
 {/* info  */}
-      <div className=" px-6 w-full" >
+      <div className=" px-6 w-full " >
 
         {/* announcement */}
-        <div className="flex justify-between items-center h-3vh bg-blue-300" >
+        <div className="flex justify-between items-center  bg-blue-300 py-1" >
           <div className="flex gap-2">
           <img src={announce} alt="anouncement" className="h-6 w-6" />
             <p className="font-bold text-md">Sunday-Friday :</p>
@@ -26,7 +26,7 @@ const Header = () => {
         </div>
 
 {/* navlinks */}
-        <div className="flex justify-between items-center bg-yellow-700 h-9vh ">
+        <div className="flex justify-between items-center bg-yellow-700 py-3">
           <ul className=" flex gap-10 items-center">
             <li><a>Home</a></li>
             <li><a>About Us</a></li>
