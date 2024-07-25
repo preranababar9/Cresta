@@ -4,7 +4,7 @@ import announce from "/home/announce.svg";
 import socials from "/home/socials.svg";
 const Header = () => {
   return (
-    <header className="w-full max-w sticky h-12vh top-0 bg-pink-100 flex">
+    <header className="w-full max-w sticky h-12vh top-0  flex max-width">
 
         {/* logo div */}
       <div className=" bg-[#3F74EF] w-44 h-12vh flex justify-center items-center">
@@ -12,10 +12,10 @@ const Header = () => {
       </div>
 
 {/* info  */}
-      <div className=" px-6 w-full " >
+      <div className=" w-full  " >
 
         {/* announcement */}
-        <div className="flex justify-between items-center  bg-blue-300 py-1" >
+        <div className="flex justify-between items-center  bg-blue-300 py-1  px-6" >
           <div className="flex gap-2">
           <img src={announce} alt="anouncement" className="h-6 w-6" />
             <p className="font-bold text-md">Sunday-Friday :</p>
@@ -26,7 +26,7 @@ const Header = () => {
         </div>
 
 {/* navlinks */}
-        <div className="flex justify-between items-center bg-yellow-700 py-3">
+        <div className="flex justify-between items-center  py-3  px-6">
           <ul className=" flex gap-10 items-center">
             <li><a>Home</a></li>
             <li><a>About Us</a></li>
