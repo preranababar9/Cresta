@@ -4,18 +4,18 @@ import announce from "/home/announce.svg";
 import socials from "/home/socials.svg";
 const Header = () => {
   return (
-    <header className="w-full max-w sticky h-12vh top-0  flex max-width">
+    <header className="w-full max-w fixed h-12vh top-0  flex max-width">
 
         {/* logo div */}
       <div className=" bg-[#3F74EF] w-44 h-12vh flex justify-center items-center">
-        <img src={logo1} alt="logo" className="w-[138px] h-[68px]" />
+        <img src={logo1} alt="logo" className="w-28 h-20" />
       </div>
 
 {/* info  */}
       <div className=" w-full  " >
 
         {/* announcement */}
-        <div className="flex justify-between items-center  bg-blue-300 py-1  px-6" >
+        <div className="flex justify-between items-center  bg-headgradient  py-1  px-6" >
           <div className="flex gap-2">
           <img src={announce} alt="anouncement" className="h-6 w-6" />
             <p className="font-bold text-md">Sunday-Friday :</p>
@@ -26,8 +26,8 @@ const Header = () => {
         </div>
 
 {/* navlinks */}
-        <div className="flex justify-between items-center  py-3  px-6">
-          <ul className=" flex gap-10 items-center">
+        <div className="flex justify-between items-center text-lg py-3  px-6">
+          <ul className=" flex gap-8 items-center font-medium">
             <li><a>Home</a></li>
             <li><a>About Us</a></li>
             <li><a>Services</a></li>
@@ -37,7 +37,7 @@ const Header = () => {
             <li><a>Contact</a></li>
           </ul>
 
-          <button>Book Now</button>
+          <button className="bg-slate-500 text-white font-medium py-3 px-8 rounded-md">Book Now</button>
         </div>
       </div>
     </header>
