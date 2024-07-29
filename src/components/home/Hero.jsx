@@ -5,9 +5,9 @@ import Frame from "/home/Frame.svg"
 const Hero = () => {
   return (
     <div className='h-[100vh] py-20 '>
-       <div className='max-width bg-blue-200 mt-7 flex items-center  '>
+       <div className='max-width bg-blue-200 mt-7 flex items-center z-100 '>
              <div className='pl-8'>
-            <p className='text-md font-bold text-[#351EE0] uppercase pl-2 pb-4'>
+            <p className='text-md font-bold text-[#351EE0] uppercase pl-2 pb-3'>
             Pro Tech Consult</p>
 
             <h1 className='text-[#05092B] text-7xl font-bold pb-6'>

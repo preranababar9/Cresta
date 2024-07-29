@@ -4,7 +4,7 @@ import announce from "/home/announce.svg";
 import socials from "/home/socials.svg";
 const Header = () => {
   return (
-    <header className="w-full max-w fixed h-12vh top-0  flex max-width">
+    <header className="w-full max-w fixed h-12vh top-0  flex max-width z-10">
 
         {/* logo div */}
       <div className=" bg-[#3F74EF] w-44 h-12vh flex justify-center items-center">
