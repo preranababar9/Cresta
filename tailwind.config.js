@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       
-      backgroundImage: {"headgradient":"linear-gradient(91.01deg, #351EE0 0%, #3F74EF 100%)"}
-
+      backgroundImage: {"headgradient":"linear-gradient(bg-gradient-to-r from-[#ffedd5] to-[red])"}
+// bg-gradient-to-r from-[#351EE0] to-[#3F74EF]
   
   },
   plugins: [],

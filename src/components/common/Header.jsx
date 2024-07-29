@@ -15,7 +15,7 @@ const Header = () => {
       <div className=" w-full  " >
 
         {/* announcement */}
-        <div className="flex justify-between items-center  bg-headgradient  py-1  px-6" >
+        <div className="flex justify-between items-center  bg-blue-200 py-1  px-6" >
           <div className="flex gap-2">
           <img src={announce} alt="anouncement" className="h-6 w-6" />
             <p className="font-bold text-md">Sunday-Friday :</p>
@@ -28,16 +28,16 @@ const Header = () => {
 {/* navlinks */}
         <div className="flex justify-between items-center text-lg py-3  px-6">
           <ul className=" flex gap-8 items-center font-medium">
-            <li><a>Home</a></li>
-            <li><a>About Us</a></li>
-            <li><a>Services</a></li>
-            <li><a>Projects</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Page</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="#" className="hover:text-blue-300 hover:text-xl">Home</a></li>
+            <li><a href="#" className="hover:text-blue-300 hover:text-xl">About Us</a></li>
+            <li><a href="#" className="hover:text-blue-300 hover:text-xl">Services</a></li>
+            <li><a href="#" className="hover:text-blue-300 hover:text-xl">Projects</a></li>
+            <li><a href="#" className="hover:text-blue-300 hover:text-xl">Blog</a></li>
+            <li><a href="#" className="hover:text-blue-300 hover:text-xl">Page</a></li>
+            <li><a href="#" className="hover:text-blue-300 hover:text-xl">Contact</a></li>
           </ul>
 
-          <button className="bg-slate-500 text-white font-medium py-3 px-8 rounded-md">Book Now</button>
+          <button className="bg-slate-500 text-white font-medium py-3 px-8 rounded-md ">Book Now</button>
         </div>
       </div>
     </header>
