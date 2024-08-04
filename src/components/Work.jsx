@@ -18,44 +18,47 @@ const Work = () => {
           </h1>
         </div> 
 
-        <div className='flex gap-5  '>
+{/* 
+1st div */}
+        <div className='flex gap-5 w-4/5 '>
 
-                <div className='w-1/3  '>
-                        <div className="flex items-center justify-center ">
+                <div className='w-1/3 relative bottom-12 '>
+                        <div className="flex items-center justify-center absolute left-36 -top-8">
                         <img src={work1} alt="icon" className='bg-blue-700 py-2 px-2 rounded-md' />
                         </div>
 
-                        <div className='bg-white py-10 text-center rounded-md'>
+                        <div className='bg-white py-10 text-center rounded-md px-6'>
                         <h4 className='text-lg font-bold py-4'>Data Master Cyber</h4>
-                                <p>Information Technology is a broad category that think a encom passesractices</p>
-                                <button>Read More</button>
+
+                                <p className='py-4'>Information Technology is a broad category that think a encom passesractices</p>
+                                <button  className='text-[#05092B] font-bold text-lg'>Read More</button>
                         </div>
                 </div>
 
                 {/* 2nd  */}
-                <div className='w-1/3'>
-                        <div  className="">
-                        <img src={work2} alt="" />
+                <div className='w-1/3 relative bottom-12'>
+                        <div  className="flex items-center justify-center absolute left-36 -top-8">
+                        <img src={work2} alt="" className='bg-blue-700 py-2 px-2 rounded-md' />
                          </div>
 
-                        <div className=' bg-white'>
-                                <h4>Data Master Cyber</h4>
-                                <p>Information Technology is a broad category that think a encom passesractices</p>
-                                <button>Read More</button>
+                        <div className=' bg-white py-10  text-center rounded-md px-6'>
+                                <h4 className='text-lg font-bold py-4'>Data Master Cyber</h4>
+                                <p className='py-4'>Information Technology is a broad category that think a encom passesractices</p>
+                                <button className='text-[#05092B] font-bold text-lg'>Read More</button>
                         </div>
                 </div>
 
-                {/* 3rd */}
-                <div className='w-1/3'>
-                        <div  className="bg-blue-700 px-3 py-3 mb-6 rounded-md ">
-                        <img src={work3} alt="" />
+                {/* 3rd */} 
+                <div className='w-1/3 relative bottom-12 '>
+                        <div  className="flex items-center justify-center absolute left-36 -top-8">
+                        <img src={work3} alt="" className='bg-blue-700 py-2 px-2 rounded-md' />
                         </div>
 
-                        <div className='bg-white  ' >
+                        <div className='bg-white py-10 text-center rounded-md px-6 ' >
                        
-                                <h4>Data Master Cyber</h4>
-                                <p>Information Technology is a broad category that think a encom passesractices</p>
-                                <button>Read More</button>
+                                <h4 className='text-lg font-bold py-4'>Data Master Cyber</h4>
+                                <p className='py-4'>Information Technology is a broad category that think a encom passesractices</p>
+                                <button  className='text-[#05092B] font-bold text-lg'>Read More</button>
                         </div>
                 </div>
         </div>
