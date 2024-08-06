@@ -1,11 +1,11 @@
 import React from "react";
 import Frame from "/home/Frame.svg";
-
 const Hero = () => {
   return (
-    <div className="h-[100vh] py-20 ">
-      <div className="max-width bg-blue-200 mt-7 flex items-center z-100 ">
-        <div className="pl-8">
+    <div className="h-[100vh] bg-blue-200 ">
+      <div className="w-full max-width  h-full flex items-center  ">
+
+        <div className="py-20">
           <p className="text-md font-bold text-[#351EE0] uppercase pl-2 pb-3">
             Pro Tech Consult
           </p>
@@ -24,7 +24,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="">
+        <div className="h-full ">
           <img src={Frame} alt="Frame" />
         </div>
       </div>

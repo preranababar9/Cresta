@@ -16,57 +16,22 @@ const Features = () => {
           </h2>
         </div>
 
-        <div className="flex   pt-6 items-center gap-6">
-          <div className=" border-solid border-2 p-4 w-1/3 pt-8  ">
-            <img
-              src={feature1}
-              alt="feature1"
-              className="bg-blue-200 px-2 py-2 mb-6"
-            />
+        <div className="flex  flex-wrap justify-evenly  pt-6 items-center ">
+          {featData.map((item, index) => (
+            <div  key= {index} className="shadow-xl duration-300 hover:scale-110 p-6 w-[30%] pt-8  ">
+              <img
+                src={item.img}
+                alt="feature1"
+                className="bg-blue-200 px-2 py-2 mb-6"
+              />
 
-            <h3 className="text-[#05092B] font-bold text-xl pb-6 ">
-              Digital Solutions Support
-            </h3>
+              <h3 className="text-[#05092B] font-bold text-xl pb-6 ">
+                {item.title}
+              </h3>
 
-            <p className="text-[#737373] font-normal text-lg ">
-              Information Technology is a broad the category that encompasses
-              various technologies and practices{" "}
-            </p>
-          </div>
-
-          <div className="  border-solid border-2 p-4 w-1/3 pt-8  ">
-            <img
-              src={feature2}
-              alt="feature1"
-              className="bg-blue-200 px-3 py-3 mb-6"
-            />
-
-            <h3 className="text-[#05092B] font-bold text-xl pb-6 ">
-              Digital Solutions Support
-            </h3>
-
-            <p className="text-[#737373] font-normal text-lg ">
-              Information Technology is a broad the category that encompasses
-              various technologies and practices{" "}
-            </p>
-          </div>
-
-          <div className="  border-solid border-2 p-4 w-1/3 pt-8 ">
-            <img
-              src={feature3}
-              alt="feature1"
-              className="bg-blue-200 px-3 py-3 mb-6"
-            />
-
-            <h3 className="text-[#05092B] font-bold text-xl pb-6 ">
-              Digital Solutions Support
-            </h3>
-
-            <p className="text-[#737373] font-normal text-lg ">
-              Information Technology is a broad the category that encompasses
-              various technologies and practices{" "}
-            </p>
-          </div>
+              <p className="text-[#737373] font-normal text-lg ">{item.desc}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
@@ -74,3 +39,21 @@ const Features = () => {
 };
 
 export default Features;
+
+const featData = [
+  {
+    img: feature1,
+    title: " Digital Solutions Support",
+    desc: "Information Technology is a broad the category that encompasses various technologies and practices",
+  },
+  {
+    img: feature2,
+    title: " Digital Solutions Support",
+    desc: "Information Technology is a broad the category that encompassesvarious technologies and practices",
+  },
+  {
+    img: feature3,
+    title: " Digital Solutions Support",
+    desc: "Information Technology is a broad the category that encompasses various technologies and practices",
+  },
+];
