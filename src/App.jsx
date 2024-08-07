@@ -9,6 +9,7 @@ import Work from "./components/Work";
 import Gallery from "./components/Gallery";
 import Marque from "./components/Marque";
 import Solutions from "./components/Solutions";
+import Service from "./components/Service";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Gallery/>
       <Marque/>
       <Solutions/>
+      <Service/>
       <Footer/>
     </div>
   );
