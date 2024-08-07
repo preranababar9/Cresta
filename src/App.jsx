@@ -8,6 +8,7 @@ import About from "./components/About";
 import Work from "./components/Work";
 import Gallery from "./components/Gallery";
 import Marque from "./components/Marque";
+import Solutions from "./components/Solutions";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Work/>
       <Gallery/>
       <Marque/>
+      <Solutions/>
       <Footer/>
     </div>
   );

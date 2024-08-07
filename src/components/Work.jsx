@@ -25,14 +25,14 @@ const Work = () => {
                 {workcard.map((item, index) => (
                          <div key={index} className=' w-1/3 relative bottom-12 hover:scale-105 duration-300 '>
                          <div className="flex items-center justify-center absolute left-44 -top-8">
-                         <img src={work1} alt="icon" className='bg-blue-700 py-2 px-2 rounded-md' />
+                         <img src={item.logo} alt="icon" className='bg-blue-700 py-2 px-2 rounded-md' />
                          </div>
  
                          <div className='bg-white py-10 text-center rounded-md px-6 shadow-xl  '>
-                         <h4 className='text-lg font-bold py-4'>Data Master Cyber</h4>
+                         <h4 className='text-lg font-bold py-4'>{item.title}</h4>
  
-                                 <p className='py-4'>Information Technology is a broad category that think a encom passesractices</p>
-                                 <button  className='text-[#05092B] font-bold text-lg'>Read More</button>
+                                 <p className='py-4'>{item.desc}</p>
+                                 <button  className='text-[#05092B] font-bold text-lg'>{item.button}</button>
                          </div>
                  </div>
 
