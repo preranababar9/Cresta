@@ -10,6 +10,7 @@ import Gallery from "./components/Gallery";
 import Marque from "./components/Marque";
 import Solutions from "./components/Solutions";
 import Service from "./components/Service";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Marque/>
       <Solutions/>
       <Service/>
+      <Counter/>
       <Footer/>
     </div>
   );
