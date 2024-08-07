@@ -7,6 +7,7 @@ import Footer from "./components/common/Footer";
 import About from "./components/About";
 import Work from "./components/Work";
 import Gallery from "./components/Gallery";
+import Marque from "./components/Marque";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Work/>
       <Gallery/>
+      <Marque/>
       <Footer/>
     </div>
   );
