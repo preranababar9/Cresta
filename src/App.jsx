@@ -12,6 +12,7 @@ import Solutions from "./components/Solutions";
 import Service from "./components/Service";
 import Counter from "./components/Counter";
 import Testimonals from "./components/Testimonals";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Service/>
       <Counter/>
       <Testimonals/>
+      <Blog/>
       <Footer/>
     </div>
   );

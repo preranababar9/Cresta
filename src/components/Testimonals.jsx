@@ -1,8 +1,18 @@
 import React from "react";
 import test1 from "/images/test1.svg";
 import star from "/icons/star.svg";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Testimonals = () => {
+        var settings = {
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              };
   return (
     <section className="py-20">
       <div className="max-width">
@@ -16,12 +26,15 @@ const Testimonals = () => {
           </h1>
         </div>
 
+      
 <div className="flex flex-col gap-10">
+
+
         {test.map((item, index) => (
                 
           <div
             key={index}
-            className="flex  justify-evenly gap-5 w-full h-full  px-6 py-8  items-center border-solid border-2 border-[#CCCCCC]"
+            className="flex  justify-evenly gap-5 w-full h-full  px-6 py-8  items-center border-solid border-2 border-[#CCCCCC]" 
           >
             <div className="w-[20%] ">
               <img src={item.img} alt="" className="object-cover" />
@@ -36,7 +49,9 @@ const Testimonals = () => {
           </div>
           
         ))}
+       
         </div>
+        
       </div>
     </section>
   );
