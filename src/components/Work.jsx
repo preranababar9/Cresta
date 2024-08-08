@@ -57,13 +57,13 @@ const workcard = [
         },
         {
                 logo : work2,
-                title :"Data Master Cyber",
+                title :"Data Guardians IT",
                 desc :"Information Technology is a broad category that think a encom passesractices",
                 button : "Read More"
          },
          {
                 logo : work3,
-                title :"Data Master Cyber",
+                title :"Digital Solutions It",
                 desc :"Information Technology is a broad category that think a encom passesractices",
                 button : "Read More"
          }

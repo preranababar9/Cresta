@@ -48,12 +48,12 @@ const featData = [
   },
   {
     img: feature2,
-    title: " Digital Solutions Support",
+    title: "Software Masters Gates  ",
     desc: "Information Technology is a broad the category that encompassesvarious technologies and practices",
   },
   {
     img: feature3,
-    title: " Digital Solutions Support",
+    title: " Digital Solutions Tech",
     desc: "Information Technology is a broad the category that encompasses various technologies and practices",
   },
 ];

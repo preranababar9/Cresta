@@ -1,5 +1,8 @@
 import React from 'react'
 import count1 from "/icons/count1.svg";
+import count2 from "/icons/count2.svg";
+import count3 from "/icons/count3.svg";
+import count4 from "/icons/count4.svg";
 
 const Counter = () => {
   return (
@@ -22,11 +25,11 @@ const Counter = () => {
 
 {count.map((item, index) => (
  <div className='flex gap-5 w-[50%] items-center'>
- <img src={count1} alt="" className='h-16' />
+ <img src={item.img} alt="" className='h-16' />
 
  <div className='flex flex-col items-start border-solid border-2 border-white py-4 px-3 '>
- <p className='text-white text-4xl font-bold'> 200+</p>
- <p className='text-white text-sm '>Team Members</p>
+ <p className='text-white text-4xl font-bold'> {item.num}</p>
+ <p className='text-white text-sm '>{item.text}</p>
  </div>
 </div>
 ))}
@@ -41,23 +44,23 @@ export default Counter
 
 const count = [
         {
-                img : {count1},
-                num : 200,
-                text :"team members"
+                img : count1,
+                num : "200+",
+                text :"Team members"
         },
         {
-                img : {count1},
-                num : 200,
-                text :"team members"
+                img : count2,
+                num : "900+",
+                text :"Client Review"
         },
         {
-                img : {count1},
-                num : 200,
-                text :"team members"
+                img : count3,
+                num : "20+",
+                text :"Winning Awards"
         },
         {
-                img : {count1},
-                num : 200,
-                text :"team members"
+                img : count4,
+                num : "10k+",
+                text :"Complete Projects"
         },
 ]

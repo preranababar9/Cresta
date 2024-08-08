@@ -20,26 +20,26 @@ const Blog = () => {
         <div className="w-full flex justify-evenly flex-wrap ">
 
                 {blog.map((item, index) => (
-                           <div className="w-[30%] hover:scale-105 duration-300">
-                           <img src={blog1} alt="" />
+                           <div key={index} className="w-[30%] hover:scale-105 duration-300">
+                           <img src={item.img} alt="" />
                
                            <div className="hover:bg-blue-300  flex justify-around py-2">
                              <div className="flex items-center gap-2 ">
-                               <img src={comment} alt="" className="h-5" />
-                               <p className=" text-black ">Comments(3)</p>
+                               <img src={item.comimg} alt="" className="h-5" />
+                               <p className=" text-black ">{item.textcom}</p>
                              </div>
                
                              <div className="flex items-center gap-2">
                                {" "}
-                               <img src={admin} alt="" className="h-5" />
-                               <p className=" text-black">By Admin</p>
+                               <img src={item.adminimg} alt="" className="h-5" />
+                               <p className=" text-black">{item.admintext}</p>
                              </div>
                            </div>
                
                            <h4 className=" text-lg font-bold px-16 pt-6">
-                             Unleash the Power of IT Unlock Your Business
+                            {item.head}
                            </h4>
-                           <button className=" text-md font-bold px-16 pt-6">Read More</button>
+                           <button className=" text-md font-bold px-16 pt-6">{item.button}</button>
                          </div>
                 ))}
        
@@ -64,19 +64,19 @@ const blog = [
         {
                 img : blog1,
                 comimg : comment,
-                textcom : "Comments(3)",
+                textcom : "Comments(5)",
                 adminimg : admin,
                 admintext : "By Admin",
-                head : " Unleash the Power of IT Unlock Your Business",
+                head : " Experience the Future of IT the Simplify IT for Enhanced",
                 button : "Read More"
         },
         {
                 img : blog1,
                 comimg : comment,
-                textcom : "Comments(3)",
+                textcom : "Comments(10)",
                 adminimg : admin,
                 admintext : "By Admin",
-                head : " Unleash the Power of IT Unlock Your Business",
+                head : "Stay Ahead with Cutting-Edge IT Solutions",
                 button : "Read More"
         }
 ]

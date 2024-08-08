@@ -61,12 +61,12 @@ const profile = [
   },
   {
     img: solution,
-    name: "Courtney Henry",
-    position: "Web Designer",
+    name: "Albert Flores",
+    position: "UI/UX Designer",
   },
   {
     img: solution,
     name: "Courtney Henry",
-    position: "Web Designer",
+    position: "Cyber Expert",
   },
 ];
