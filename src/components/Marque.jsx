@@ -5,7 +5,7 @@ import marque from "/icons/marque.svg";
 const Marque = () => {
   return (
         <section className='py-20 '>
-    <div className='max-width  '> 
+    <div className=' '> 
 
 <Marquee>
         <img src={marque} alt="" className='mr-10 h-12'/>

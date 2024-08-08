@@ -10,7 +10,7 @@ import Frame6 from "/logo/Frame6.svg";
 const Marque2 = () => {
   return (
         <section className='py-20 '>
-    <div className='max-width'>
+    <div className=''>
         
         <Marquee >
         <img src={Frame1} alt="" className='mr-14 '/>

@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="text-white text-xl font-bold mb-6">Services</h2>
+            <h2 className="text-white text-xl font-bold mb-6">Contact US</h2>
 
             <p className="text-[#FFFFFF] text-md mb-6">
               Lorem Ipsum is simply is is the<br></br> dumiomy is text Lorem

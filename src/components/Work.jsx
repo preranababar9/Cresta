@@ -5,9 +5,9 @@ import work3 from "/icons/work3.svg";
 
 const Work = () => {
   return (
-<section className="py-20 ">
+<section className="py-20   ">
     <div className="max-width ">
-       <div className='bg-[#05092B] py-24 px-28'>
+       <div className='py-24 bg-[#05092B]  px-28'>
         
        <p className="text-md font-bold text-[#351EE0] uppercase pl-2 pb-3">
        Features & Support
