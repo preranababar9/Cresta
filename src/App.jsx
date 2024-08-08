@@ -11,6 +11,7 @@ import Marque from "./components/Marque";
 import Solutions from "./components/Solutions";
 import Service from "./components/Service";
 import Counter from "./components/Counter";
+import Testimonals from "./components/Testimonals";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Solutions/>
       <Service/>
       <Counter/>
+      <Testimonals/>
       <Footer/>
     </div>
   );
