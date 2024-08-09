@@ -31,19 +31,19 @@ const Footer = () => {
             <h2 className="text-white text-xl font-bold mb-6">Services</h2>
             <ul className="text-white flex flex-col gap-3 text-md">
               <li>
-                <a> UI Design</a>
+                <a href="#about"> UI Design</a>
               </li>
               <li>
-                <a> UX Design</a>
+                <a href="#about"> UX Design</a>
               </li>
               <li>
-                <a> Web Deveopment</a>
+                <a href="#about"> Web Deveopment</a>
               </li>
               <li>
-                <a> Digital Marketing</a>
+                <a href="#about"> Digital Marketing</a>
               </li>
               <li>
-                <a> Cyber Security</a>
+                <a href="#about"> Cyber Security</a>
               </li>
             </ul>
           </div>
@@ -52,19 +52,19 @@ const Footer = () => {
             <h2 className="text-white text-xl font-bold mb-6">Useful Links</h2>
             <ul className="text-white flex flex-col gap-3 text-md">
               <li>
-                <a> About Us </a>
+                <a href="#about"> About Us </a>
               </li>
               <li>
-                <a> Our Team</a>
+                <a href="#about"> Our Team</a>
               </li>
               <li>
-                <a> Recent News</a>
+                <a href="#about"> Recent News</a>
               </li>
               <li>
-                <a> Projects</a>
+                <a href="#about"> Projects</a>
               </li>
               <li>
-                <a> All Services</a>
+                <a href="#about"> All Services</a>
               </li>
             </ul>
           </div>
