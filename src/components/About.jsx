@@ -7,7 +7,7 @@ import about3 from "/images/about3.svg";
 const About = () => {
   return (
     <section className="py-20  ">
-      <div className="max-width h-full  bg-white flex gap-8">
+      <div className="max-width h-full  bg-white flex max-md:flex-col gap-8">
         <div className="w-1/2">
           <p className="text-md font-bold text-[#351EE0] uppercase pl-2 pb-3">
             About Us

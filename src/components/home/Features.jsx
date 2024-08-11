@@ -16,7 +16,7 @@ const Features = () => {
           </h2>
         </div>
 
-        <div className="flex  flex-wrap justify-evenly  pt-6 items-center ">
+        <div className="flex  flex-wrap justify-evenly  pt-6 items-center max-md:flex-col">
           {featData.map((item, index) => (
             <div  key= {index} className="shadow-xl duration-300 hover:scale-110 p-6 w-[30%] pt-8  ">
               <img

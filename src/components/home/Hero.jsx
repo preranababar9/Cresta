@@ -3,7 +3,7 @@ import Frame from "/home/Frame.svg";
 const Hero = () => {
   return (
     <div className="h-[100vh] bg-blue-200 ">
-      <div className="w-full max-width  h-full flex items-center  ">
+      <div className="w-full   max-width  h-full lg:flex max-md:flex-col-reverse items-center  ">
 
         <div className="py-20">
           <p className="text-md font-bold text-[#351EE0] uppercase pl-2 pb-3">
@@ -24,7 +24,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="h-full ">
+        <div className="h-full  ">
           <img src={Frame} alt="Frame" />
         </div>
       </div>
