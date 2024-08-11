@@ -8,9 +8,9 @@ const Hero = () => {
         <div className="py-20">
           <p className="text-md font-bold text-[#351EE0] uppercase pl-2 pb-3">
             Pro Tech Consult
-          </p>
+          </p>  
 
-          <h1 className="text-[#05092B] text-7xl font-bold pb-6">
+          <h1 className="text-[#05092B] text-5xl font-bold pb-6">
             Drive Efficiency a with IT
           </h1>
 
