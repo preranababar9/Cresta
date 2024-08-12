@@ -19,8 +19,8 @@ function App() {
   return (
     <div>
       <Header/>
-      {/*<Home />
-       <About/>
+      <Home />
+       {/*<About/>
       <Work/>
       <Gallery/>
       <Marque/>

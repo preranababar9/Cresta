@@ -31,8 +31,8 @@ const Header = () => {
           </div>
 
 <div className="flex items-center justify-between md:hidden">
-          <div className=" bg-[#3F74EF] w-44 h-12vh flex justify-center items-center">
-          <img src={logo1} alt="logo" className="w-28 h-20" />
+          <div className=" bg-[#3F74EF] w-36 h-10vh flex justify-center items-center">
+          <img src={logo1} alt="logo" className="w-24 h-16" />
         </div>
 {!open ? (
    <button onClick={() => setOpen(true)} className="md:hidden text-black flex flex-end ">
