@@ -12,15 +12,15 @@ const Blog = () => {
             Our Latest Blog And News
           </p>
 
-          <h1 className=" text-5xl font-bold pb-6 text-center  ">
+          <h1 className=" lg:text-5xl text-3xl font-bold pb-6 text-center  ">
             Empower Your Business <br></br>with Technology
           </h1>
         </div>
 
-        <div className="w-full flex justify-evenly flex-wrap ">
+        <div className="w-full lg:flex flex-col  justify-evenly flex-wrap ">
 
                 {blog.map((item, index) => (
-                           <div key={index} className="w-[30%] hover:scale-105 duration-300">
+                           <div key={index} className="lg:w-[30%]  lg:hover:scale-105 duration-300">
                            <img src={item.img} alt="" />
                
                            <div className="hover:bg-blue-300  flex justify-around py-2">
