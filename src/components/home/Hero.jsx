@@ -12,11 +12,11 @@ const Hero = () => {
             Pro Tech Consult
           </p>  
 
-          <h1 className="text-[#05092B] text-5xl w-4/6 font-bold pb-8 max-md:text-5xl">
+          <h1 className="text-[#05092B] text-5xl lg:w-4/6 font-bold pb-8 max-md:text-5xl">
             Drive Efficiency a with IT
           </h1>
 
-          <p className="text-md font-normal w-3/4 text-[#05092B] pb-10">
+          <p className="text-md font-normal lg:w-3/4 text-[#05092B] pb-10">
             We have been operating for over a decade,
             providing top-notch services to our clients and Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam 
           </p>
