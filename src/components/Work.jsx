@@ -5,27 +5,27 @@ import work3 from "/icons/work3.svg";
 
 const Work = () => {
   return (
-<section className="py-20   ">
+<section className="py-20  ">
     <div className="max-width ">
-       <div className='py-24 bg-[#05092B]  px-28'>
+       <div className='py-24  bg-[#05092B]  px-28'>
         
-       <p className="text-md font-bold text-[#351EE0] uppercase pl-2 pb-3">
+       <p className="text-md font-bold text-[#351EE0] uppercase lg:pl-2 pb-3">
        Features & Support
           </p>
 
-          <h1 className="text-white text-5xl font-semibold pb-6">
+          <h1 className="text-white text-2xl lg:text-5xl font-semibold pb-6">
           Simplify IT for Enhanced the a <br></br>Productivity
           </h1>
         </div> 
 
 {/* 
 1st div */}
-        <div className='flex gap-6 px-12 '>
+        <div className='flex gap-6 px-12 max-md:flex-col '>
 
                 {workcard.map((item, index) => (
-                         <div key={index} className=' w-1/3 relative bottom-12 hover:scale-105 duration-300 '>
-                         <div className="flex items-center justify-center absolute left-44 -top-8">
-                         <img src={item.logo} alt="icon" className='bg-blue-700 py-2 px-2 rounded-md' />
+                         <div key={index} className=' lg:w-1/3  relative bottom-12 hover:scale-105 duration-300 '>
+                         <div className="flex items-center justify-center absolute max-md:left-28 left-40 -top-8">
+                         <img src={item.logo} alt="icon" className='bg-blue-700 py-3 px-3 rounded-md' />
                          </div>
  
                          <div className='bg-white py-10 text-center rounded-md px-6 shadow-xl  '>
