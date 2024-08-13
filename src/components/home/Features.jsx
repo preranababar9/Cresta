@@ -3,6 +3,8 @@ import feature1 from "/home/feature1.svg";
 import feature2 from "/home/feature2.svg";
 import feature3 from "/home/feature3.svg";
 
+
+
 const Features = () => {
   return (
     <section className="py-20  ">
@@ -11,14 +13,16 @@ const Features = () => {
           <p className="text-md font-bold text-center text-[#351EE0] uppercase pl-2 pb-3">
             Innovative Features & Support
           </p>
-          <h2 className="text-[#05092B] text-5xl text-center font-semibold pb-6">
+          <h2 className="text-[#05092B] text-5xl max-md:text-3xl text-center font-semibold pb-6">
             Simplify IT for Enhanced <br></br>the a Productivity
           </h2>
         </div>
 
-        <div className="flex  flex-wrap justify-evenly  pt-6 items-center max-md:flex-col">
+
+
+       <div className="flex  flex-wrap justify-evenly  pt-6 items-center max-md:flex-col">
           {featData.map((item, index) => (
-            <div  key= {index} className="shadow-xl duration-300 hover:scale-110 p-6 w-[30%] pt-8  ">
+            <div  key= {index} className="shadow-xl duration-300 hover:scale-110 p-6  w-[30%] max-md:w-[350px] pt-8  ">
               <img
                 src={item.img}
                 alt="feature1"
