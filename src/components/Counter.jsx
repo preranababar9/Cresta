@@ -25,11 +25,11 @@ const Counter = () => {
 
 {count.map((item, index) => (
  <div className='flex  gap-5 lg:w-[50%] relative items-center'>
- <img src={item.img} alt="" className='h-14 absolute -left-6' />
+ <img src={item.img} alt="" className='h-14 max-md:h-12 absolute -left-6' />
 
- <div className='flex flex-col lg:items-start border-solid border-2  lg:w-2/3 w-[180px]  border-white py-4 px-8 '>
- <p className='text-white text-4xl font-bold'> {item.num}</p>
- <p className='text-white text-sm '>{item.text}</p>
+ <div className='flex flex-col lg:items-start border-solid border-2  lg:w-2/3 w-[160px] h-[100px] border-white py-4 px-8 '>
+ <p className='text-white text-4xl max-md:text-2xl font-bold'> {item.num}</p>
+ <p className='text-white lg:text-sm text-xs '>{item.text}</p>
  </div>
 </div>
 ))}

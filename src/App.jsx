@@ -28,9 +28,9 @@ function App() {
       <Service/>
      <Counter/>
     <Testimonals/>
-       {/*  <Blog/>
+          {/*  <Blog/>
       <Marque2/>
-      <Footer/> */}
+   <Footer/> */}
     </div>
   );
 }
