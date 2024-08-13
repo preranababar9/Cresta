@@ -12,7 +12,7 @@ const Gallery = () => {
             Latest Project
           </p>
 
-          <h1 className=" text-5xl font-semibold pb-6 text-center">
+          <h1 className=" lg:text-5xl text-3xl font-semibold pb-6 text-center">
             Simplify IT for Enhanced the <br></br>Productivity
           </h1>
         </div>
