@@ -1,5 +1,7 @@
 import React from "react";
 import Frame from "/home/Frame.svg";
+import hero from "/images/hero.png";
+
 const Hero = () => {
   return (
     <div className="h-[100vh] bg-blue-200 ">
@@ -24,8 +26,8 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="h-full  ">
-          <img src={Frame} alt="Frame" />
+        <div className="h-full max-md:h-1/2 ">
+          <img src={hero} alt="Frame"  className="h-full object-cover "/>
         </div>
       </div>
     </div>
