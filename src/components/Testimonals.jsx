@@ -34,7 +34,7 @@ const Testimonals = () => {
           onSwiper={(swiper) => console.log(swiper)}
 
             key={index}
-            className="flex  max-md:flex-col justify-evenly gap-5 w-full h-full  px-6 py-8  items-center border-solid border-2 border-[#CCCCCC]" 
+            className="flex  max-md:flex-col justify-evenly gap-5 w-full h-full  lg:px-6 lg:py-8 px-3 py-5  items-center border-solid border-2 border-[#CCCCCC]" 
           >
             <div className="lg:w-[20%]   max-md:hidden">
               <img src={item.img} alt="" className="object-cover " />
@@ -43,7 +43,7 @@ const Testimonals = () => {
             <div className="lg:w-[80%] px-6 ">
               <h5 className="text-lg font-bold pb-1">{item.name}</h5>
               <p className="text-[#737373] text-sm pb-6">{item.position}</p>
-              <p className="text-[#05092B] text-lg pb-4 ">{item.review}</p>
+              <p className="text-[#05092B] lg:text-lg text-md   pb-4 ">{item.review}</p>
               <img src={item.star} alt="" className="lg:h-6 h-4" />
             </div>
           </SwiperSlide>
