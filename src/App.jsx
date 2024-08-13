@@ -25,8 +25,8 @@ function App() {
       <Gallery/>
        <Marque/>
       <Solutions/>
-     {/* <Service/>
-      <Counter/>
+      <Service/>
+     {/* <Counter/>
       <Testimonals/>
       <Blog/>
       <Marque2/>
