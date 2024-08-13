@@ -30,7 +30,7 @@ function App() {
     <Testimonals/>
            <Blog/>
       <Marque2/>
-   {/* <Footer/> */}
+  <Footer/> 
     </div>
   );
 }

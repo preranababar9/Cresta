@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <section className="pt-20 bg-blue-950">
       <div className="max-width ">
-        <div className="flex justify-evenly mb-14">
+        <div className="flex max-md:flex-col max-md:gap-6 flex-wrap justify-evenly max-md:px-10  lg:mb-14">
           <div className="">
             <div className="flex items-center gap-3 mb-6">
-              <img src={logo} alt="" className="h-8" />
-              <h2 className="text-white text-2xl font-bold">Cresta</h2>
+              <img src={logo} alt="" className="lg:h-8 h-12" />
+              <h2 className="text-white lg:text-2xl text-3xl font-bold">Cresta</h2>
             </div>
 
             <p className="text-[#FFFFFF] text-md mb-6">
@@ -28,8 +28,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="text-white text-xl font-bold mb-6">Services</h2>
-            <ul className="text-white flex flex-col gap-3 text-md">
+            <h2 className="text-white text-xl font-bold lg:mb-6 mb-4">Services</h2>
+            <ul className="text-white flex flex-col lg:gap-3 gap-2 text-md">
               <li>
                 <a href="#about"> UI Design</a>
               </li>
@@ -50,7 +50,7 @@ const Footer = () => {
 
           <div>
             <h2 className="text-white text-xl font-bold mb-6">Useful Links</h2>
-            <ul className="text-white flex flex-col gap-3 text-md">
+            <ul className="text-white flex flex-col lg:gap-3 gap-2  text-md">
               <li>
                 <a href="#about"> About Us </a>
               </li>
@@ -80,13 +80,13 @@ const Footer = () => {
               type="email"
               name="email"
               placeholder="Your Email"
-              className="p-3 bg-white text-black border border-slate-300"
+              className="p-3 bg-white text-black border pb-3 mb-10 border-slate-300"
             ></input>
           </div>
         </div>
 
         <hr></hr>
-        <div className="flex justify-around gap-28 py-6 text-white">
+        <div className="flex max-md:flex-col-reverse lg:justify-around max-md:text-center  lg:gap-28 gap-5 py-6  text-white">
           <p>© Cresta 2024 | All Rights Reserved</p>
 
           <div className="flex gap-6 text-white">
