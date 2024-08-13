@@ -36,7 +36,7 @@ const Testimonals = () => {
             key={index}
             className="flex  max-md:flex-col justify-evenly gap-5 w-full h-full  px-6 py-8  items-center border-solid border-2 border-[#CCCCCC]" 
           >
-            <div className="lg:w-[20%]  max-md:w-[300px]">
+            <div className="lg:w-[20%]   max-md:hidden">
               <img src={item.img} alt="" className="object-cover " />
             </div>
 
