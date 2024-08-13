@@ -4,7 +4,7 @@ import hero from "/images/hero.png";
 
 const Hero = () => {
   return (
-    <div className="lg:h-[100vh] h-[90vh] bg-blue-200 ">
+    <div className="lg:h-[100vh] h-[80vh] bg-blue-200 ">
       <div className="w-full max-width lg:h-full lg:flex  items-center ">
 
         <div className="py-20 max-md:pt-20  max-md:pb-0 ">
