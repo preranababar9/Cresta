@@ -13,7 +13,7 @@ const Header = () => {
     <div className="w-full top-0 absolute">
       <header className="w-full max-w  h-12vh   flex  max-width ">
         {/* logo div */}
-        <div className=" bg-[#3F74EF] w-44 h-12vh flex justify-center items-center max-md:hidden">
+        <div className=" bg-[#3F74EF] w-44 h-12vh flex justify-center items-center max-lg:hidden">
           <img src={logo1} alt="logo" className="w-28 h-20" />
         </div>
 
@@ -30,7 +30,7 @@ const Header = () => {
             <img src={socials} alt="socials" className="w-32 h-5" />
           </div>
 
-<div className="flex items-center justify-between md:hidden">
+<div className="flex items-center justify-between lg:hidden">
           <div className=" bg-[#3F74EF] w-36 h-10vh flex justify-center items-center">
           <img src={logo1} alt="logo" className="w-24 h-16" />
         </div>
