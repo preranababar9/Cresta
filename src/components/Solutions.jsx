@@ -15,9 +15,9 @@ const Solutions = () => {
           </h3>
         </div>
 
-        <div className="flex h-full justify-evenly py-4 mb-6 ">
+        <div className="lg:flex max-sm:flex-col lg:h-full lg:justify-evenly  py-4 mb-6 ">
           {profile.map((item, index) => (
-            <div className="h-1/2    border-2 border-white border-solid p-8">
+            <div key={index} className="h-1/2  border-2 border-white border-solid p-8 ">
               {" "}
               <img src={item.img} alt="" className="" />
               <p className="text-white text-center pt-2 font-bold">
@@ -28,7 +28,9 @@ const Solutions = () => {
           ))}
         </div>
 
-        <div className="bg-[#351EE0] flex justify-evenly items-center py-12 mt-10 ">
+       
+      {/* newsletter  */}
+        <div className="bg-[#351EE0] flex justify-evenly max-md:hidden items-center py-12 mt-10 ">
           <img src={letter} alt="" className="h-16" />
           <h4 className="text-white text-5xl leading-10 font-bold text-center ">
             Stay Ahead with the cutting IT
