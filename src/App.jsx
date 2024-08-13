@@ -27,8 +27,8 @@ function App() {
       <Solutions/>
       <Service/>
      <Counter/>
-     {/*  <Testimonals/>
-      <Blog/>
+    <Testimonals/>
+       {/*  <Blog/>
       <Marque2/>
       <Footer/> */}
     </div>

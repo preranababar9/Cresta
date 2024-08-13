@@ -1,18 +1,13 @@
 import React from "react";
 import test1 from "/images/test1.svg";
 import star from "/icons/star.svg";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
 
 const Testimonals = () => {
-        var settings = {
-                dots: true,
-                infinite: true,
-                speed: 500,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-              };
+        
   return (
     <section className="py-20">
       <div className="max-width">
@@ -21,36 +16,41 @@ const Testimonals = () => {
             Clients Testimonial
           </p>
 
-          <h1 className=" text-5xl font-bold pb-6 text-center  ">
+          <h1 className=" text-5xl max-md:text-3xl font-bold pb-6 text-center  ">
             Simplify IT for Enhanced<br></br> Productivity
           </h1>
         </div>
 
       
-<div className="flex flex-col gap-10">
+<Swiper className="flex flex-col gap-10">
 
 
         {test.map((item, index) => (
                 
-          <div
+          <SwiperSlide
+          spaceBetween={20}
+          slidesPerView={3}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => console.log(swiper)}
+
             key={index}
-            className="flex  justify-evenly gap-5 w-full h-full  px-6 py-8  items-center border-solid border-2 border-[#CCCCCC]" 
+            className="flex  max-md:flex-col justify-evenly gap-5 w-full h-full  px-6 py-8  items-center border-solid border-2 border-[#CCCCCC]" 
           >
-            <div className="w-[20%] ">
-              <img src={item.img} alt="" className="object-cover" />
+            <div className="lg:w-[20%]  max-md:w-[300px]">
+              <img src={item.img} alt="" className="object-cover " />
             </div>
 
-            <div className="w-[80%] px-6 ">
+            <div className="lg:w-[80%] px-6 ">
               <h5 className="text-lg font-bold pb-1">{item.name}</h5>
               <p className="text-[#737373] text-sm pb-6">{item.position}</p>
               <p className="text-[#05092B] text-lg pb-4 ">{item.review}</p>
-              <img src={item.star} alt="" className="h-6 " />
+              <img src={item.star} alt="" className="lg:h-6 h-4" />
             </div>
-          </div>
+          </SwiperSlide>
           
         ))}
        
-        </div>
+        </Swiper>
         
       </div>
     </section>
@@ -76,4 +76,28 @@ const test = [
       "Information Technology (IT) is a broad category that encompasses variou technologies and practices related to computer systems, software development, networking, datae mnt,cybrs ecurity, and more. IT professionals play a crucial role in ensuring",
     star:  star,
   },
+  {
+    img:  test1 ,
+    name: "James Anderson",
+    position: "Software Developer",
+    review:
+      "Information Technology (IT) is a broad category that encompasses variou technologies and practices related to computer systems, software development, networking, datae mnt,cybrs ecurity, and more. IT professionals play a crucial role in ensuring",
+    star:  star,
+  },
+  {
+    img:  test1 ,
+    name: "James Anderson",
+    position: "Software Developer",
+    review:
+      "Information Technology (IT) is a broad category that encompasses variou technologies and practices related to computer systems, software development, networking, datae mnt,cybrs ecurity, and more. IT professionals play a crucial role in ensuring",
+    star:  star,
+  },
+  {
+    img:  test1 ,
+    name: "James Anderson",
+    position: "Software Developer",
+    review:
+      "Information Technology (IT) is a broad category that encompasses variou technologies and practices related to computer systems, software development, networking, datae mnt,cybrs ecurity, and more. IT professionals play a crucial role in ensuring",
+    star:  star,
+  }
 ];
