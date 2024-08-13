@@ -20,12 +20,12 @@ const Gallery = () => {
         <div className="flex  max-lg:flex-col lg:gap-4 gap-y-4  justify-evenly h-[60vh] w-full">
           <div className="lg:h-full h-[18vh] lg:w-1/3 w-full flex lg:flex-col lg:gap-4 gap-2">
             <img src={gallery1} alt="" className="lg:h-[46%] lg:w-full w-1/2 object-cover" />
-            <img src={gallery2} alt="" className="lg:h-[46%] lg:w-full w-1/2 object-cover" />
+            <img src={gallery2} alt="" className="lg:h-[50%] lg:w-full w-1/2 object-cover" />
           </div>
 
           <img src={gallery3} alt="" className="lg:h-full h-[18vh] lg:w-1/3 w-full object-cover " />
 
-          <div className="lg:h-full h-[18vh] lg:w-1/3 flex lg:flex-col lg:gap-4 gap-2">
+          <div className="lg:h-full h-[18vh] lg:w-1/3 flex lg:flex-col lg:gap-4 gap-2 ">
             <img src={gallery1} alt="" className="lg:h-[48%] lg:w-full w-1/2 object-cover" />
             <img src={gallery2} alt="" className="lg:h-[48%] lg:w-full w-1/2 object-cover" />
           </div>
