@@ -1,8 +1,8 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa";
-import about1 from "/images/about1.svg";
-import about2 from "/images/about2.svg";
-import about3 from "/images/about3.svg";
+import about1 from "/images/about1.jpg";
+import about2 from "/images/about2.jpg";
+import about from "/images/about.jpg";
 
 const About = () => {
   return (
@@ -66,7 +66,7 @@ const About = () => {
               <img src={about1} alt="" className="w-1/2 object-cover" />
               <img src={about2} alt="" className="w-1/2 object-cover" />
             </div>
-            <img src={about3} alt="" className="h-1/2 w-full object-cover" />
+            <img src={about} alt="" className="h-1/2 w-full object-cover" />
           </div>
         </div>
       </div>

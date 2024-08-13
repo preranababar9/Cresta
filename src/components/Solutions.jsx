@@ -33,7 +33,7 @@ const Solutions = () => {
 
        
       {/* newsletter  */}
-        <div className="bg-[#351EE0] flex justify-around max-md:hidden w-[65%]  items-center py-8 mt-10  ">
+        {/* <div className="bg-[#351EE0] flex justify-around max-md:hidden w-[65%]  items-center py-8 mt-10  ">
           <img src={letter} alt="" className="h-14" />
           <h4 className="text-white text-3xl leading-10 font-bold text-center ">
             Stay Ahead with the cutting IT
@@ -50,7 +50,7 @@ const Solutions = () => {
               Subscribe
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import blog1 from "/images/blog1.svg";
 import comment from "/icons/comment.svg";
 import admin from "/icons/admin.svg";
+import blogimg from "/images/blogimg.jpg";
 
 const Blog = () => {
   return (
@@ -31,7 +32,7 @@ const Blog = () => {
                
                              <div className="flex items-center gap-2">
                                {" "}
-                               <img src={item.adminimg} alt="" className="h-5" />
+                               <img src={item.adminimg} alt="" className="h-5 object-cover" />
                                <p className=" text-black">{item.admintext}</p>
                              </div>
                            </div>
@@ -53,7 +54,7 @@ export default Blog;
 
 const blog = [
         {
-                img : blog1,
+                img : blogimg,
                 comimg : comment,
                 textcom : "Comments(3)",
                 adminimg : admin,
@@ -62,7 +63,7 @@ const blog = [
                 button : "Read More"
         },
         {
-                img : blog1,
+                img : blogimg,
                 comimg : comment,
                 textcom : "Comments(5)",
                 adminimg : admin,
@@ -71,7 +72,7 @@ const blog = [
                 button : "Read More"
         },
         {
-                img : blog1,
+                img : blogimg,
                 comimg : comment,
                 textcom : "Comments(10)",
                 adminimg : admin,
