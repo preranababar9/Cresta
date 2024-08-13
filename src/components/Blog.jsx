@@ -17,13 +17,13 @@ const Blog = () => {
           </h1>
         </div>
 
-        <div className="w-full lg:flex flex-col  justify-evenly flex-wrap ">
+        <div className="w-full flex max-md:flex-col max-md:gap-10 justify-evenly flex-wrap ">
 
                 {blog.map((item, index) => (
-                           <div key={index} className="lg:w-[30%]  lg:hover:scale-105 duration-300">
-                           <img src={item.img} alt="" />
+                           <div key={index} className="lg:w-[30%]  lg:hover:scale-105 lg:duration-300">
+                           <img src={item.img} alt="" className=""/>
                
-                           <div className="hover:bg-blue-300  flex justify-around py-2">
+                           <div className="lg:hover:bg-blue-300  flex justify-around py-2">
                              <div className="flex items-center gap-2 ">
                                <img src={item.comimg} alt="" className="h-5" />
                                <p className=" text-black ">{item.textcom}</p>

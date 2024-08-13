@@ -19,6 +19,20 @@ const Marque2 = () => {
         <img src={Frame4} alt="" className='mr-14 '/>
         <img src={Frame5} alt="" className='mr-14 '/>
         <img src={Frame6} alt="" className='mr-14 '/>
+
+        <img src={Frame1} alt="" className='mr-14 '/>
+        <img src={Frame2} alt="" className='mr-14 '/>
+        <img src={Frame3} alt="" className='mr-14 '/>
+        <img src={Frame4} alt="" className='mr-14 '/>
+        <img src={Frame5} alt="" className='mr-14 '/>
+        <img src={Frame6} alt="" className='mr-14 '/>
+
+        <img src={Frame1} alt="" className='mr-14 '/>
+        <img src={Frame2} alt="" className='mr-14 '/>
+        <img src={Frame3} alt="" className='mr-14 '/>
+        <img src={Frame4} alt="" className='mr-14 '/>
+        <img src={Frame5} alt="" className='mr-14 '/>
+        <img src={Frame6} alt="" className='mr-14 '/>
         </Marquee>
         </div>
     </section>
