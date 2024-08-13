@@ -20,8 +20,8 @@ function App() {
     <div>
       <Header/>
       <Home />
-       {/*<About/>
-      <Work/>
+    <About/>
+         {/*<Work/>
       <Gallery/>
       <Marque/>
       <Solutions/>

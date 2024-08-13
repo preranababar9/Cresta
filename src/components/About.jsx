@@ -7,8 +7,9 @@ import about3 from "/images/about3.svg";
 const About = () => {
   return (
     <section className="py-20  ">
-      <div className="max-width h-full  bg-white flex max-md:flex-col gap-8">
-        <div className="w-1/2">
+      <div className="max-width h-full  bg-white flex max-md:flex-col lg:gap-8">
+
+        <div className="lg:w-1/2">
           <p className="text-md font-bold text-[#351EE0] uppercase pl-2 pb-3">
             About Us
           </p>
@@ -59,7 +60,7 @@ const About = () => {
           </button>
         </div>
 
-        <div className="w-1/2 relative">
+        <div className="lg:w-1/2 relative">
           <div className="w-full h-full flex flex-col gap-5 absolute">
             <div className="flex gap-5 h-1/2 w-full ">
               <img src={about1} alt="" className="w-1/2 object-cover" />
