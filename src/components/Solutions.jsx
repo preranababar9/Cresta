@@ -1,6 +1,9 @@
 import React from "react";
 import solution from "/images/solution.svg";
 import letter from "/icons/letter.svg";
+import testimon1 from "/images/testimon1.png";
+import testimon2 from "/images/testimon2.png";
+import testimon3 from "/images/testimon3.png";
 
 const Solutions = () => {
   return (
@@ -15,11 +18,11 @@ const Solutions = () => {
           </h3>
         </div>
 
-        <div className="lg:flex max-sm:flex-col lg:h-full lg:justify-evenly relative py-4 mb-6 ">
+        <div className="lg:flex max-sm:flex-col lg:h-full lg:justify-evenly gap-5 relative py-2 mb-6 ">
           {profile.map((item, index) => (
             <div key={index} className="h-1/2  lg:border-2 border-white border-solid p-8 ">
               {" "}
-              <img src={item.img} alt="" className="" />
+              <img src={item.img} alt="" className="object-cover" />
               <p className="text-white text-center pt-2 font-bold">
                 {item.name}
               </p>
@@ -57,17 +60,17 @@ export default Solutions;
 
 const profile = [
   {
-    img: solution,
+    img: testimon1,
     name: "Courtney Henry",
     position: "Web Designer",
   },
   {
-    img: solution,
+    img: testimon2,
     name: "Albert Flores",
     position: "UI/UX Designer",
   },
   {
-    img: solution,
+    img: testimon3,
     name: "Courtney Henry",
     position: "Cyber Expert",
   },

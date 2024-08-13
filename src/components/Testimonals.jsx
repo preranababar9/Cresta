@@ -1,5 +1,7 @@
 import React from "react";
-import test1 from "/images/test1.svg";
+import testimon1 from "/images/testimon1.png";
+import testimon2 from "/images/testimon2.png";
+import testimon3 from "/images/testimon3.png";
 import star from "/icons/star.svg";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -61,7 +63,7 @@ export default Testimonals;
 
 const test = [
   {
-    img:  test1,
+    img:  testimon1,
     name: "James Anderson",
     position: "Software Developer",
     review:
@@ -69,7 +71,7 @@ const test = [
     star:  star ,
   },
   {
-    img:  test1 ,
+    img:  testimon2 ,
     name: "James Anderson",
     position: "Software Developer",
     review:
@@ -77,23 +79,7 @@ const test = [
     star:  star,
   },
   {
-    img:  test1 ,
-    name: "James Anderson",
-    position: "Software Developer",
-    review:
-      "Information Technology (IT) is a broad category that encompasses variou technologies and practices related to computer systems, software development, networking, datae mnt,cybrs ecurity, and more. IT professionals play a crucial role in ensuring",
-    star:  star,
-  },
-  {
-    img:  test1 ,
-    name: "James Anderson",
-    position: "Software Developer",
-    review:
-      "Information Technology (IT) is a broad category that encompasses variou technologies and practices related to computer systems, software development, networking, datae mnt,cybrs ecurity, and more. IT professionals play a crucial role in ensuring",
-    star:  star,
-  },
-  {
-    img:  test1 ,
+    img:  testimon3 ,
     name: "James Anderson",
     position: "Software Developer",
     review:
