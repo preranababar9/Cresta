@@ -16,7 +16,7 @@ const Service = () => {
           </p>
 
 <div className="flex justify-between"> 
-          <h1 className=" text-5xl font-bold pb-6  ">
+          <h1 className=" max-md:text-3xl text-5xl font-bold pb-6  ">
             Drive Efficiency with IT<br></br> the Expertise
           </h1>
 
@@ -34,7 +34,7 @@ const Service = () => {
 
 className="flex flex-col gap-10">
 {service.map((item, index) => (
-        <SwiperSlide key={index} className="w-full border-solid border-2  border-[#CCCCCC] py-8 px-10 hover:scale-105 duration-300">
+        <SwiperSlide key={index} className="w-full border-solid border-2  border-[#CCCCCC] py-8 px-10 ">
 
         <h5 className="text-2xl font-bold pb-3 text-[#05092B]">{item.title}</h5>
         <p className="text-lg font-semibold text-[#737373]">{item.detail}</p>

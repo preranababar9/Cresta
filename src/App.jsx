@@ -26,8 +26,8 @@ function App() {
        <Marque/>
       <Solutions/>
       <Service/>
-     {/* <Counter/>
-      <Testimonals/>
+     <Counter/>
+     {/*  <Testimonals/>
       <Blog/>
       <Marque2/>
       <Footer/> */}
