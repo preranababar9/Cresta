@@ -15,12 +15,12 @@ const Service = () => {
             Digital Solutions
           </p>
 
-<div className="flex justify-between"> 
-          <h1 className=" max-md:text-3xl text-5xl font-bold pb-6  ">
-            Drive Efficiency with IT<br></br> the Expertise
+<div className="flex max-md:flex-col  justify-between items-center"> 
+          <h1 className=" max-md:text-3xl lg:w-2/4 text-5xl font-bold pb-6  ">
+            Drive Efficiency with IT the Expertise
           </h1>
 
-          <button className=" text-black text-lg px-4  border-solid border-2 border-[#351EE0]">
+          <button className=" text-black text-lg px-6 py-3 h-full border-solid border-2 border-[#351EE0]">
             See More
           </button></div>
         </div>
