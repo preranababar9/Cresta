@@ -15,9 +15,9 @@ const Solutions = () => {
           </h3>
         </div>
 
-        <div className="lg:flex max-sm:flex-col lg:h-full lg:justify-evenly  py-4 mb-6 ">
+        <div className="lg:flex max-sm:flex-col lg:h-full lg:justify-evenly relative py-4 mb-6 ">
           {profile.map((item, index) => (
-            <div key={index} className="h-1/2  border-2 border-white border-solid p-8 ">
+            <div key={index} className="h-1/2  lg:border-2 border-white border-solid p-8 ">
               {" "}
               <img src={item.img} alt="" className="" />
               <p className="text-white text-center pt-2 font-bold">
@@ -30,9 +30,9 @@ const Solutions = () => {
 
        
       {/* newsletter  */}
-        <div className="bg-[#351EE0] flex justify-evenly max-md:hidden items-center py-12 mt-10 ">
-          <img src={letter} alt="" className="h-16" />
-          <h4 className="text-white text-5xl leading-10 font-bold text-center ">
+        <div className="bg-[#351EE0] flex justify-around max-md:hidden w-[65%] absolute left-64 items-center py-8 mt-10 ">
+          <img src={letter} alt="" className="h-14" />
+          <h4 className="text-white text-3xl leading-10 font-bold text-center ">
             Stay Ahead with the cutting IT
           </h4>
 
