@@ -121,7 +121,7 @@ const Header = () => {
             <ul className=" flex gap-8 items-center font-medium">
               <li>
               <Link  to="/home"
-                      className="hover:text-black duration-300 font-semibold">
+                      className="hover:text-blue-700   duration-300 font-semibold">
                      
                    
                       Home
@@ -129,7 +129,7 @@ const Header = () => {
               </li>
               <li>
                <Link  to="/home"
-                      className="hover:text-black duration-300 font-semibold">
+                      className="hover:text-blue-700 duration-300 font-semibold">
                
                 
                   About Us
