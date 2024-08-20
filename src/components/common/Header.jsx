@@ -53,60 +53,59 @@ const Header = () => {
               <div className="  bg-blue-500 absolute flex flex-col  left-0 top-20 h-fit w-full md:hidden z-20 ">
                 <ul className=" flex gap-2 text-white  text-lg items-center flex-col py-5 font-medium">
                   <li>
-                    <Link
-                      to="/home"
-                      className="hover:text-black duration-300 font-semibold"
-                    >
+                    <Link    to="/home"
+                      className="hover:text-black duration-300 font-semibold">
+                   
+                    
                       Home
                     </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="hover:text-black duration-300 font-semibold"
-                    >
+                   <Link    to="/home"
+                      className="hover:text-black duration-300 font-semibold">
+                     
+                    
                       About Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="hover:text-black duration-300 font-semibold"
-                    >
+                   <Link>
+                    
+                    
                       Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="hover:text-black duration-300 font-semibold"
-                    >
+                   <Link    to="/home"
+                      className="hover:text-black duration-300 font-semibold">
+                    
+                   
                       Projects
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="hover:text-black duration-300 font-semibold"
-                    >
+                   <Link    to="/home"
+                      className="hover:text-black duration-300 font-semibold">
+                    
+                   
                       Blog
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="hover:text-black duration-300 font-semibold"
-                    >
+                   <Link    to="/home"
+                      className="hover:text-black duration-300 font-semibold">
+                    
+                   
                       Page
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="hover:text-black duration-300 font-semibold"
-                    >
+                    <Link    to="/home"
+                      className="hover:text-black duration-300 font-semibold">
+                    
+                   
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
 
@@ -121,60 +120,60 @@ const Header = () => {
           <div className="flex justify-between items-center text-lg max-lg:hidden py-3  px-6">
             <ul className=" flex gap-8 items-center font-medium">
               <li>
-              <Link
-                      to="/home"
-                      className="hover:text-black duration-300 font-semibold"
-                    >
+              <Link  to="/home"
+                      className="hover:text-black duration-300 font-semibold">
+                     
+                   
                       Home
                     </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold"
-                >
+               <Link  to="/home"
+                      className="hover:text-black duration-300 font-semibold">
+               
+                
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold"
-                >
+               <Link  href="#"
+                  className="hover:text-blue-700 duration-300 font-semibold">
+                
+                
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold"
-                >
+               <Link  href="#"
+                  className="hover:text-blue-700 duration-300 font-semibold">
+              
+                
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold"
-                >
+               <Link  href="#"
+                  className="hover:text-blue-700 duration-300 font-semibold">
+                 
+                
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold"
-                >
+               <Link  href="#"
+                  className="hover:text-blue-700 duration-300 font-semibold">
+                 
+                
                   Page
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold"
-                >
+               <Link  href="#"
+                  className="hover:text-blue-700 duration-300 font-semibold">
+                 
+                
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
 
