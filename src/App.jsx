@@ -14,13 +14,16 @@ import Counter from "./components/Counter";
 import Testimonals from "./components/Testimonals";
 import Blog from "./components/Blog";
 import Marque2 from "./components/Marque2";
+import Hero from "./components/home/Hero";
+import Features from "./components/home/Features";
 
 function App() {
   return (
     <div>
       <Header/>
-      <Home />
-    <About/>
+     <Hero/>
+         <Features/>
+    {/* <About/>
         <Work/>
       <Gallery/>
        <Marque/>
@@ -30,7 +33,7 @@ function App() {
     <Testimonals/>
            <Blog/>
       <Marque2/>
-  <Footer/> 
+  <Footer/>  */}
     </div>
   );
 }

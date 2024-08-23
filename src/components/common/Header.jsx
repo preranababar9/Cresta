@@ -11,7 +11,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="w-full top-0 absolute">
-      <header className="w-full max-w  h-12vh   flex  max-width ">
+      <header className="w-full max-w  h-[12vh]   flex  max-width ">
         {/* logo div */}
         <div className=" bg-[#3F74EF] w-44 h-12vh flex justify-center items-center max-lg:hidden">
           <img src={logo1} alt="logo" className="w-28 h-20" />
@@ -34,76 +34,75 @@ const Header = () => {
             <div className=" bg-[#3F74EF] w-36 h-10vh flex justify-center items-center">
               <img src={logo1} alt="logo" className="w-24 h-16" />
             </div>
+
+            {/* responsive */}
             {!open ? (
               <button
                 onClick={() => setOpen(true)}
-                className="md:hidden text-black flex flex-end "
+                className="lg:hidden text-black flex flex-end "
               >
                 <GiHamburgerMenu size={24} className="" />
               </button>
             ) : (
               <button
                 onClick={() => setOpen(false)}
-                className="md:hidden text-black "
+                className="lg:hidden text-black "
               >
                 <RxCross1 size={20} />
               </button>
             )}
+
             {open && (
               <div className="  bg-blue-500 absolute flex flex-col  left-0 top-20 h-fit w-full md:hidden z-20 ">
                 <ul className=" flex gap-2 text-white  text-lg items-center flex-col py-5 font-medium">
                   <li>
-                    <Link    to="/home"
-                      className="hover:text-black duration-300 font-semibold">
-                   
-                    
+                    <Link
+                      to="/home"
+                      className="hover:text-black duration-300 font-semibold"
+                    >
                       Home
                     </Link>
                   </li>
                   <li>
-                   <Link    to="/home"
-                      className="hover:text-black duration-300 font-semibold">
-                     
-                    
+                    <Link
+                      to="/home"
+                      className="hover:text-black duration-300 font-semibold"
+                    >
                       About Us
                     </Link>
                   </li>
                   <li>
-                   <Link>
-                    
-                    
-                      Services
-                    </Link>
+                    <Link>Services</Link>
                   </li>
                   <li>
-                   <Link    to="/home"
-                      className="hover:text-black duration-300 font-semibold">
-                    
-                   
+                    <Link
+                      to="/home"
+                      className="hover:text-black duration-300 font-semibold"
+                    >
                       Projects
                     </Link>
                   </li>
                   <li>
-                   <Link    to="/home"
-                      className="hover:text-black duration-300 font-semibold">
-                    
-                   
+                    <Link
+                      to="/home"
+                      className="hover:text-black duration-300 font-semibold"
+                    >
                       Blog
                     </Link>
                   </li>
                   <li>
-                   <Link    to="/home"
-                      className="hover:text-black duration-300 font-semibold">
-                    
-                   
+                    <Link
+                      to="/home"
+                      className="hover:text-black duration-300 font-semibold"
+                    >
                       Page
                     </Link>
                   </li>
                   <li>
-                    <Link    to="/home"
-                      className="hover:text-black duration-300 font-semibold">
-                    
-                   
+                    <Link
+                      to="/home"
+                      className="hover:text-black duration-300 font-semibold"
+                    >
                       Contact
                     </Link>
                   </li>
@@ -120,58 +119,58 @@ const Header = () => {
           <div className="flex justify-between items-center text-lg max-lg:hidden py-3  px-6">
             <ul className=" flex gap-8 items-center font-medium">
               <li>
-              <Link  to="/home"
-                      className="hover:text-blue-700   duration-300 font-semibold">
-                     
-                   
-                      Home
-                    </Link>
+                <Link
+                  to="/home"
+                  className="hover:text-blue-700   duration-300 font-semibold"
+                >
+                  Home
+                </Link>
               </li>
               <li>
-               <Link  to="/home"
-                      className="hover:text-blue-700 duration-300 font-semibold">
-               
-                
+                <Link
+                  to="/home"
+                  className="hover:text-blue-700 duration-300 font-semibold"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-               <Link  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold">
-                
-                
+                <Link
+                  href="#"
+                  className="hover:text-blue-700 duration-300 font-semibold"
+                >
                   Services
                 </Link>
               </li>
               <li>
-               <Link  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold">
-              
-                
+                <Link
+                  href="#"
+                  className="hover:text-blue-700 duration-300 font-semibold"
+                >
                   Projects
                 </Link>
               </li>
               <li>
-               <Link  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold">
-                 
-                
+                <Link
+                  href="#"
+                  className="hover:text-blue-700 duration-300 font-semibold"
+                >
                   Blog
                 </Link>
               </li>
               <li>
-               <Link  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold">
-                 
-                
+                <Link
+                  href="#"
+                  className="hover:text-blue-700 duration-300 font-semibold"
+                >
                   Page
                 </Link>
               </li>
               <li>
-               <Link  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold">
-                 
-                
+                <Link
+                  href="#"
+                  className="hover:text-blue-700 duration-300 font-semibold"
+                >
                   Contact
                 </Link>
               </li>

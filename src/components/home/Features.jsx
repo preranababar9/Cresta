@@ -22,18 +22,18 @@ const Features = () => {
 
        <div className="flex  flex-wrap justify-evenly  pt-6 items-center max-md:flex-col">
           {featData.map((item, index) => (
-            <div  key= {index} className="shadow-xl duration-300 hover:scale-110 p-6  w-[30%] max-md:w-[350px] pt-8  ">
+            <div  key= {index} className="shadow-xl duration-300 hover:scale-110 p-6  w-[30%] max-md:w-[350px] max-sm:w-[250px] pt-8  ">
               <img
                 src={item.img}
                 alt="feature1"
                 className="bg-blue-200 px-2 py-2 mb-6"
               />
 
-              <h3 className="text-[#05092B] font-bold text-xl pb-6 ">
+              <h3 className="text-[#05092B] font-bold lg:text-xl text-lg pb-6 ">
                 {item.title}
               </h3>
 
-              <p className="text-[#737373] font-normal text-lg ">{item.desc}</p>
+              <p className="text-[#737373] font-normal lg:text-lg text-md ">{item.desc}</p>
             </div>
           ))}
         </div>

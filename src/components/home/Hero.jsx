@@ -12,7 +12,7 @@ const Hero = () => {
             Pro Tech Consult
           </p>  
 
-          <h1 className="text-[#05092B] text-6xl lg:w-4/6 font-bold pb-8 max-md:text-5xl">
+          <h1 className="text-[#05092B] text-6xl lg:w-4/6 font-bold pb-8 max-md:text-4xl">
             Drive Efficiency a with IT
           </h1>
 
