@@ -90,20 +90,13 @@ const Header = () => {
                       Blog
                     </Link>
                   </li>
+                  
                   <li>
                     <Link
                       to="/home"
                       className="hover:text-black duration-300 font-semibold"
                     >
-                      Page
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/home"
-                      className="hover:text-black duration-300 font-semibold"
-                    >
-                      Contact
+                      Solution
                     </Link>
                   </li>
                 </ul>
@@ -158,20 +151,13 @@ const Header = () => {
                   Blog
                 </Link>
               </li>
+            
               <li>
                 <Link
                   href="#"
                   className="hover:text-blue-700 duration-300 font-semibold"
                 >
-                  Page
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="hover:text-blue-700 duration-300 font-semibold"
-                >
-                  Contact
+                  Solution
                 </Link>
               </li>
             </ul>

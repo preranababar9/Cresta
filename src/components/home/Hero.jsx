@@ -13,7 +13,7 @@ const Hero = () => {
           </p>  
 
           <h1 className="text-[#05092B] text-6xl lg:w-4/6 font-bold pb-8 max-md:text-4xl">
-            Drive Efficiency a with IT
+            Drive Efficiency with IT
           </h1>
 
           <p className="text-md font-normal lg:w-3/4 text-[#05092B] pb-10 ">
