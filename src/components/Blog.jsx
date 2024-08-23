@@ -13,7 +13,7 @@ const Blog = () => {
             Our Latest Blog And News
           </p>
 
-          <h1 className=" lg:text-5xl text-3xl font-bold pb-6 text-center  ">
+          <h1 className=" lg:text-5xl text-2xl font-bold pb-6 text-center  ">
             Empower Your Business <br></br>with Technology
           </h1>
         </div>
@@ -21,7 +21,7 @@ const Blog = () => {
         <div className="w-full flex max-md:flex-col max-md:gap-10 justify-evenly flex-wrap ">
 
                 {blog.map((item, index) => (
-                           <div key={index} className="lg:w-[30%]  lg:hover:scale-105 lg:duration-300">
+                           <div key={index} className="lg:w-[30%]   lg:hover:scale-105 lg:duration-300">
                            <img src={item.img} alt="" className=""/>
                
                            <div className="lg:hover:bg-blue-300  flex justify-around py-2">
@@ -37,7 +37,7 @@ const Blog = () => {
                              </div>
                            </div>
                
-                           <h4 className=" text-lg font-bold px-16 pt-6">
+                           <h4 className=" lg:text-lg text-md font-bold px-16 pt-6">
                             {item.head}
                            </h4>
                            <button className=" text-md font-bold px-16 pt-6">{item.button}</button>

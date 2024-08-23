@@ -25,15 +25,15 @@ function App() {
          <Features/>
      <About/>
        <Work/>
-     {/*  <Gallery/>
+    <Gallery/>
        <Marque/>
-      <Solutions/>
-      <Service/>
-     <Counter/>
+        <Solutions/>
+     <Service/>
+      <Counter/>
     <Testimonals/>
-           <Blog/>
+         <Blog/>
       <Marque2/>
-  <Footer/>  */}
+  <Footer/> 
     </div>
   );
 }
