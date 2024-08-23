@@ -23,7 +23,7 @@ const Work = () => {
         <div className='flex gap-16 lg:px-12 px-6 max-lg:flex-col  '>
 
                 {workcard.map((item, index) => (
-                         <div key={index} className=' lg:w-1/3  w-[320px] relative bottom-12 hover:scale-105 duration-300 '>
+                         <div key={index} className=' lg:w-1/3  w-[250px] relative bottom-12 hover:scale-105 duration-300 '>
                          <div className="flex items-center justify-center absolute max-md:left-[40%] left-36 -top-8">
                          <img src={item.logo} alt="icon" className='bg-blue-700 py-3 px-3 rounded-md' />
                          </div>

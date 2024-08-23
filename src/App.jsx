@@ -23,9 +23,9 @@ function App() {
       <Header/>
      <Hero/>
          <Features/>
-    {/* <About/>
-        <Work/>
-      <Gallery/>
+     <About/>
+       <Work/>
+     {/*  <Gallery/>
        <Marque/>
       <Solutions/>
       <Service/>
