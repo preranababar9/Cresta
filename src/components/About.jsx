@@ -14,7 +14,7 @@ const About = () => {
             About Us
           </p>
 
-          <h1 className="text-[#05092B] text-5xl font-semibold pb-6">
+          <h1 className="text-[#05092B] text-5xl max-md:text-3xl font-semibold pb-6">
             Empower You Business with Technology
           </h1>
 
