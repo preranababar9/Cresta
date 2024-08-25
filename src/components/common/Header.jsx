@@ -4,11 +4,15 @@ import announce from "/home/announce.svg";
 import socials from "/home/socials.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import { useEffect } from 'react';
 
 import { RxCross1 } from "react-icons/rx";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+
+  
+
   return (
     <div className="w-full top-0 absolute">
       <header className="w-full max-w  h-[12vh]   flex  max-width ">
@@ -52,7 +56,10 @@ const Header = () => {
               </button>
             )}
 
+
+
             {open && (
+              
               <div className="  bg-blue-500 absolute flex flex-col  left-0 top-0 h-fit w-full md:hidden z-10 "  data-aos="fade-left">
                 <div>
                 <ul className=" flex gap-6 text-white  text-xl items-start px-10 flex-col py-16 font-medium">
@@ -100,7 +107,9 @@ const Header = () => {
                </div>
               
             )}
+            
           </div>
+
 
           {/* navlinks */}
           <div className="flex justify-between items-center text-lg max-lg:hidden py-3  px-6">
