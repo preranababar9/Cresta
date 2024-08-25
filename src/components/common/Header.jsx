@@ -46,15 +46,16 @@ const Header = () => {
             ) : (
               <button
                 onClick={() => setOpen(false)}
-                className="lg:hidden text-black "
+                className="lg:hidden text-white z-20 "
               >
-                <RxCross1 size={20} />
+                <RxCross1 size={24} />
               </button>
             )}
 
             {open && (
-              <div className="  bg-blue-500 absolute flex flex-col  left-0 top-20 h-fit w-full md:hidden z-20 ">
-                <ul className=" flex gap-2 text-white  text-lg items-center flex-col py-5 font-medium">
+              <div className="  bg-blue-500 absolute flex flex-col  left-0 top-0 h-fit w-full md:hidden z-10 ">
+                <div>
+                <ul className=" flex gap-6 text-white  text-xl items-start px-10 flex-col py-16 font-medium">
                   <Link
                     to="/home"
                     className="hover:text-black duration-300 font-semibold"
@@ -92,11 +93,12 @@ const Header = () => {
                     Solution
                   </Link>
                 </ul>
-
-                <button className="bg-slate-500 text-white font-medium  py-3 px-8 rounded-md ">
+                </div>
+                <button className="bg-slate-500 ml-8 text-white font-medium w-1/2 mb-5   py-3 px-8 rounded-md ">
                   Book Now
                 </button>
-              </div>
+               </div>
+              
             )}
           </div>
 
