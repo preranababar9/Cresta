@@ -53,7 +53,7 @@ const Header = () => {
             )}
 
             {open && (
-              <div className="  bg-blue-500 absolute flex flex-col  left-0 top-0 h-fit w-full md:hidden z-10 ">
+              <div className="  bg-blue-500 absolute flex flex-col  left-0 top-0 h-fit w-full md:hidden z-10 "  data-aos="fade-left">
                 <div>
                 <ul className=" flex gap-6 text-white  text-xl items-start px-10 flex-col py-16 font-medium">
                   <Link

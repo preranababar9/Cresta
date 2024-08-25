@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import "./App.css";
 import Home from "./pages/Home";
@@ -18,6 +21,11 @@ import Hero from "./components/home/Hero";
 import Features from "./components/home/Features";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+    duration : 1000,
+    });
+  }, []);
   return (
     <div>
       <Header/>
