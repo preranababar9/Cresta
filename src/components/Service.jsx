@@ -7,7 +7,7 @@ import 'swiper/css';
 
 const Service = () => {
   return (
-    <section className="py-20">
+    <section id="solution" className="py-20">
       <div className="max-width ">
 
         <div className="mb-10">

@@ -7,7 +7,7 @@ import testimon3 from "/images/testimon3.png";
 
 const Solutions = () => {
   return (
-    <section className="py-20 bg-[#05092B]">
+    <section  className="py-20 bg-[#05092B]">
       <div className="max-width ">
         <div className="pb-10">
           <p className="text-white text-md font-bold text-center uppercase">

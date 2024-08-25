@@ -11,7 +11,7 @@ import { RxCross1 } from "react-icons/rx";
 const Header = () => {
   const [open, setOpen] = useState(false);
 
-  
+
 
   return (
     <div className="w-full top-0 absolute">
@@ -63,42 +63,56 @@ const Header = () => {
               <div className="  bg-blue-500 absolute flex flex-col  left-0 top-0 h-fit w-full md:hidden z-10 "  data-aos="fade-left">
                 <div>
                 <ul className=" flex gap-6 text-white  text-xl items-start px-10 flex-col py-16 font-medium">
-                  <Link
-                    to="/home"
+                  <li
+                   
                     className="hover:text-black duration-300 font-semibold"
-                  >
+                  ><a  href="#home">
                     Home
-                  </Link>
+                    </a>
+                  </li>
 
-                  <Link
-                    to="/home"
+                  <li
+                  
                     className="hover:text-black duration-300 font-semibold"
                   >
+                    <a  href="#about">
                     About Us
-                  </Link>
+                    </a>
+                    
+                  </li>
 
-                  <Link>Services</Link>
+                  <li
+                   
+                    className="hover:text-black duration-300 font-semibold" 
+                  >
+                     <a  href="#service">
+                     Services
+                    </a>
+                    </li>
 
-                  <Link
-                    to="/home"
+                  <li
+                   
                     className="hover:text-black duration-300 font-semibold"
                   >
-                    Projects
-                  </Link>
 
-                  <Link
-                    to="/home"
+                    <a href="#project">Projects</a>
+                  </li>
+
+                  <li
+                   
                     className="hover:text-black duration-300 font-semibold"
                   >
-                    Blog
-                  </Link>
+                    <a href="#blog">
+                    Blog</a>
+                  </li>
 
-                  <Link
-                    to="/home"
+                  <li
+                   
                     className="hover:text-black duration-300 font-semibold"
                   >
-                    Solution
-                  </Link>
+                    <a href="#solution">
+                    Solution</a>
+                  </li>
                 </ul>
                 </div>
                 <button className="bg-slate-500 ml-8 text-white font-medium w-1/2 mb-5   py-3 px-8 rounded-md ">
@@ -114,47 +128,53 @@ const Header = () => {
           {/* navlinks */}
           <div className="flex justify-between items-center text-lg max-lg:hidden py-3  px-6">
             <ul className=" flex gap-8 items-center font-medium">
-              <Link
-                to="/home"
+              <li
+                
                 className="hover:text-blue-700   duration-300 font-semibold"
               >
-                Home
-              </Link>
+                <a href="#home">
+                Home</a>
+              </li>
 
-              <Link
-                to="/home"
+              <li
+                
                 className="hover:text-blue-700 duration-300 font-semibold"
               >
-                About Us
-              </Link>
+                <a href="#about">
+                About Us</a>
+              </li>
 
-              <Link
-                href="#"
+              <li
+               
                 className="hover:text-blue-700 duration-300 font-semibold"
               >
-                Services
-              </Link>
+                <a  href="#service">
+                Services</a>
+              </li>
 
-              <Link
-                href="#"
+              <li
+              
                 className="hover:text-blue-700 duration-300 font-semibold"
               >
-                Projects
-              </Link>
+                <a href="#project">
+                Projects</a>
+              </li>
 
-              <Link
-                href="#"
+              <li
+                
                 className="hover:text-blue-700 duration-300 font-semibold"
               >
-                Blog
-              </Link>
+                <a href="#blog">
+                Blog</a>
+              </li>
 
-              <Link
-                href="#"
+              <li
+               
                 className="hover:text-blue-700 duration-300 font-semibold"
               >
-                Solution
-              </Link>
+                <a  href="#solution">
+                Solution</a>
+              </li>
             </ul>
 
             <button className="bg-slate-500 text-white font-medium max-md:hidden py-3 px-8 rounded-md ">

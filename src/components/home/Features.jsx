@@ -7,7 +7,7 @@ import feature3 from "/home/feature3.svg";
 
 const Features = () => {
   return (
-    <section className="py-20  ">
+    <section id="service" className="py-20  ">
       <div className="max-width bg-white">
         <div className="mb-10">
           <p className="text-md font-bold text-center text-[#351EE0] uppercase pl-2 pb-3">

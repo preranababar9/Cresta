@@ -6,7 +6,7 @@ import blogimg from "/images/blogimg.jpg";
 
 const Blog = () => {
   return (
-    <section className="py-20">
+    <section id="blog" className="py-20">
       <div className="max-width">
         <div className="mb-6">
           <p className="text-lg font-bold text-[#351EE0] uppercase text-center  pb-3">

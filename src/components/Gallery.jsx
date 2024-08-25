@@ -5,7 +5,7 @@ import gallery3 from "/images/gallery3.svg";
 
 const Gallery = () => {
   return (
-    <section className="py-20 ">
+    <section id="project" className="py-20 ">
       <div className="max-width bg-white">
         <div>
           <p className="text-md font-bold text-[#351EE0] uppercase text-center pb-3">

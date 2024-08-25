@@ -6,7 +6,7 @@ import about from "/images/about.jpg";
 
 const About = () => {
   return (
-    <section className="py-20  ">
+    <section id="about" className="py-20  ">
       <div className="max-width h-full  bg-white flex max-md:flex-col lg:gap-8">
 
         <div className="lg:w-1/2">
